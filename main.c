@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "myLib/testLib.h"
+#include "lib/testLib.h"
 
 int main() {
     char* s = "Hello, World!\n";

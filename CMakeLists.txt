@@ -3,4 +3,4 @@ project(HelloC C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(HelloC main.c)
+add_executable(HelloC main.c myLib/testLib.h myLib/testLib.c)
